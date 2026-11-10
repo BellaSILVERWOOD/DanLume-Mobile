@@ -1,0 +1,52 @@
+{
+  "name": "DanLume · 日程与工作汇报",
+  "short_name": "DanLume",
+  "description": "把日历、邮箱、教务通知、备忘、作业、文献库、公式与 AI 助手收在一个手机应用里。",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F5F2E9",
+  "theme_color": "#2F7A5F",
+  "lang": "zh-CN",
+  "icons": [
+    {
+      "src": "icons/app-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/app-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/app-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "新建日程",
+      "url": "./index.html#/calendar?new=1",
+      "icons": [
+        {
+          "src": "icons/app-96.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "问 Lume",
+      "url": "./index.html#/ai",
+      "icons": [
+        {
+          "src": "icons/app-96.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ]
+}

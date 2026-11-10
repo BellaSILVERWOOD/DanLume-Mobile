@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light" data-bg="linen">
+<head>
+<meta charset="utf-8" />
+<title>DanLume · 日程与工作汇报</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1, user-scalable=no" />
+<meta name="theme-color" content="#F5F2E9" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+<meta name="apple-mobile-web-app-title" content="DanLume" />
+<meta name="format-detection" content="telephone=no" />
+<link rel="manifest" href="manifest.webmanifest" />
+<link rel="icon" href="favicon.ico" sizes="any" />
+<link rel="apple-touch-icon" href="icons/app-180.png" />
+<link rel="stylesheet" href="vendor/katex.min.css" />
+<link rel="stylesheet" href="css/app.css" />
+</head>
+<body>
+<div id="app">
+  <header id="topbar" class="topbar"></header>
+  <main id="view" class="view"></main>
+  <nav id="tabbar" class="tabbar"></nav>
+</div>
+<div id="overlay-root"></div>
+<div id="toast-root"></div>
+
+<div id="boot" style="position:fixed;inset:0;display:grid;place-items:center;background:#F5F2E9;z-index:999">
+  <div style="text-align:center;color:#2F7A5F;font:600 15px/1.6 'PingFang SC','Microsoft YaHei',sans-serif">
+    <img src="icons/app-192.png" width="64" height="64" style="border-radius:18px;box-shadow:0 10px 30px -12px rgba(0,0,0,.4)" alt="" />
+    <div style="margin-top:14px;letter-spacing:.5px">DanLume</div>
+    <div style="color:#8a948a;font-size:11.5px;margin-top:2px">正在准备你的工作台…</div>
+  </div>
+</div>
+
+<script src="vendor/katex.min.js"></script>
+<script src="vendor/auto-render.min.js"></script>
+<script src="vendor/marked.umd.js"></script>
+<script src="vendor/purify.min.js"></script>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>

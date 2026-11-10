@@ -1,0 +1,26 @@
+{
+  "name": "danlume-mobile",
+  "version": "1.3.2",
+  "private": true,
+  "description": "DanLume 手机版：日历、邮箱、通知、备忘、作业、文献、公式与 AI 助手",
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "vendor": "node tools/vendor.mjs",
+    "check": "node tools/syntax.mjs",
+    "test": "node tools/test-util.mjs"
+  },
+  "dependencies": {
+    "dompurify": "^3.4.17",
+    "imapflow": "^2.11.0",
+    "katex": "^0.19.1",
+    "mailparser": "^3.14.2",
+    "marked": "^18.1.3",
+    "nodemailer": "^10.3.1",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "devDependencies": {
+    "yauzl": "^3.4.0",
+    "yazl": "^3.3.1"
+  }
+}
