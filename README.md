@@ -341,3 +341,14 @@ DanLume-1.0.0-client-source 的 Python/PySide6 版本重写为移动端实现；
 因此桌面版导出的字段可以一一对应到手机版。
 
 —— 用 Lume 把这周过明白。
+
+## 著作权与许可（GPL-3.0）
+
+- 手机端基于 **lmq（GitHub: @BellaSILVERWOOD）** 的 DanLume Python 桌面版移植；
+- 手机端开发：**lcy（LinkCutY@qq.com）**；
+- 桌面端（Python 版 / Rust 版）著作权归 **lmq（@BellaSILVERWOOD）** 所有。
+
+本项目以 **GNU General Public License v3.0（GPL-3.0）** 开源，全文见仓库根目录 \LICENSE\。
+分发衍生作品必须同样以 GPL-3.0 开源，并保留上面的署名与变更说明。
+
+Copyright (C) 2026 lmq (@BellaSILVERWOOD) · 手机端开发 lcy <LinkCutY@qq.com>
